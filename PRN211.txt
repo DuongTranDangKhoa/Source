@@ -87,3 +87,10 @@ A. .NETC# | delegate void CallBack(string s); class Program{ public event CallBa
 A. C#.NET | delegate void D1(string s); class Program { static void Print(string s) { Console.Write(s); } static void Show(string s) { Console.WriteLine(s); } static void Main(string[] args) { D1 d = new D1(Print); d("C#"); d = new Dl(Show); d(".NET"); } } The output Will be: 
 C. 12 | class A{ public A(){ Console.Write("1"); } public void Print(){ Console.Write("2"); } } class B : A{ public void Show(){ basePrint(); Console.Write("3"); } } class Program { static void Main(string[] args){ B obj = new B(); obj.Print(); Console.WriteLine(); } } The output Will be: 
 D.The members of a namespace can be namespaces, interfaces, structures | Choose the correct statement related to the Namespaces in C#? 
+A Drivelnfo | Which of the following provides detailed inforrnalion regarding the drives that a given machine uses?
+A. 13 | class A{ public A(){ Console.Write("1"); } public virtual void Print() { Console.Write("2"); } } class B : A{ public override void Print() { Console.Wnte("3"); } }
+class Program{ static void Main(string[] args){ A obj1 = new BO; obj1 .Print();
+Console.WriteLineO; } } The output Will be:
+A. a=3,b=8,c=5 | static void GetValue(ref int a, cut int b, int c){ b = a + c; c++; c = a + b; } static void Main(string[] args){ int a= 3, b=4.c=5; GetValue(ref c, out b, a);Console.WriteLine($”e={a},b={b},c={c}”); } Which one of the following is the output of the above code?
+A.5,6 |  class A { static int x = 1; static A(){ x++; } public A(){ x += 3; } public void Print(){ Console.WriteLine(S"{x},{++x}"); } } class Program{ static void Main(string[] args){ A obj = new AO; obj.Print(); } }
+A. Encapsulation | Hiding the implementation and exposing the interface is a concept of OOP. What is called?
